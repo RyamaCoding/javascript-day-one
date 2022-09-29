@@ -1,6 +1,17 @@
-let cash = 30
-let price = 40
-let isStoreOpen = true
+for (let i = 1; i <= 20; ++i) {
+    if (i % 3 === 0 && i % 5 ===0) {
+        console.log(`${i} -> Frontend Simplified`)
+    }
 
-let str = isStoreOpen && cash >= price ? 'give receipt' : 'do not give receipt'
-console.log(str)
+    else if (i % 3 === 0){
+        console.log(`${i} -> Frontend`)
+    }
+
+    else if (i % 5 === 0){
+        console.log(`${i} -> Simplified`)
+    }
+
+    else {
+        console.log(`${i} -> ${i}`)
+    }
+}
