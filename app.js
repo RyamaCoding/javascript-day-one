@@ -1,13 +1,10 @@
-console.log("Welcome to FES, David")
-console.log("Welcome to FES, Zen")
-console.log("Welcome to FES, Mitri")
+let arr = [20, 30, 40, 50, 100]
 
+let newArr = arr.filter((element) => {
+    console.log(element)
+    if (element < 50){
+        return true
+    }
+})
 
-// Function definition
-function welcomePersonToFes () {
-    console.log("Welcome to FES, David")
-}
-
-
-// Call the function
-welcomePersonToFes();
+console.log(newArr)
