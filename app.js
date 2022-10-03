@@ -1,10 +1,9 @@
-let arr = [20, 30, 40, 50, 100]
+let dollars = [1, 5, 10, 3]
 
-let newArr = arr.filter((element) => {
-    console.log(element)
-    if (element < 50){
-        return true
-    }
-})
+let cents = []
 
-console.log(newArr)
+for (i = 0; i < dollars.length; i++) {
+    cents.push(dollars[i] * 100)
+}
+
+console.log(cents)
