@@ -9,3 +9,8 @@
 .dark-theme * {
     color: white;
 }
+
+.red-theme {
+    color: red;
+    font-size: 16px;
+}
